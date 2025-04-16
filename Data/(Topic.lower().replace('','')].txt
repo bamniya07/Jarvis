@@ -1,0 +1,29 @@
+Sure, I'd be happy to help you write an application for a sick leave. Here's an example:
+
+---
+
+[Your Name]
+[Your Address]
+[City, State ZIP]
+[Email Address]
+[Today’s Date]
+
+[Recipient's Name]
+[Recipient's Position]
+[Company Name]
+[Company Address]
+[City, State ZIP]
+
+Dear [Recipient's Name],
+
+I am writing to inform you that I am unable to come to work for the next few days due to illness. I woke up this morning feeling unwell and decided to see a doctor. After a thorough examination, I was diagnosed with the flu and was advised to take a few days off to rest and recover.
+
+I am sorry for any inconvenience this may cause and I will make sure to catch up on any work that I miss as soon as I am feeling better. I will also check my emails periodically during my absence and respond to any urgent matters.
+
+I will keep you updated on my progress and let you know as soon as I am able to return to work. In the meantime, please let me know if there is anything I can do to help with the transition during my absence.
+
+Thank you for your understanding and support.
+
+Sincerely,
+
+[Your Name]
