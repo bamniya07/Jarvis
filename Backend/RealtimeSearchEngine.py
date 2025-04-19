@@ -5,12 +5,23 @@ import datetime #Importing the datetime module for real-time date and time infor
 from dotenv import dotenv_values #Importing dotenv_values to read environment variables from a .env file. 
 
 #Load environment variables from the .env file. 
-env_vars = dotenv_values(".env") 
+# env_vars = dotenv_values(".env") 
+
+import os
+
+GroqAPIKey = os.getenv("GROQ_API_KEY")
+
+# Optional fallback for local development
+if not GroqAPIKey:
+    from dotenv import dotenv_values
+    env_vars = dotenv_values(".env")
+    GroqAPIKey = env_vars.get("GroqAPIKey")
+
 
 #Retrieve environment variables for the chatbot configuration. 
 Username = env_vars.get("Username") 
 Assistantname = env_vars.get("Assistantname") 
-GroqAPIKey = env_vars.get("GroqAPIKey") 
+# GroqAPIKey = env_vars.get("GroqAPIKey") 
 
 #Initialize the Groq client with the provided API key. 
 client = Groq(api_key=GroqAPIKey) 
